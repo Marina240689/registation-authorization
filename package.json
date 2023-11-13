@@ -1,8 +1,25 @@
 {
   "dependencies": {
-    "cypress": "^13.3.3"
+    "cypress": "^13.5.0"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.2.0"
-  }
+  },
+  "name": "registration-authorization",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marina240689/registation-authorization.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marina240689/registation-authorization/issues"
+  },
+  "homepage": "https://github.com/Marina240689/registation-authorization#readme",
+  "description": ""
 }

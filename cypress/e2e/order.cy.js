@@ -29,16 +29,5 @@ describe('Successfull order', () => {
       cy.log('Check order was created');
       successOrderPage.checkText(' Your Order Has Been Processed!');
      
-
-
-
-
-
-
-
-    
-
-      
-
     })
 })

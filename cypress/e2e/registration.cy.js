@@ -36,7 +36,7 @@ describe('Registration', () => {
 
 
   it('Login', () => {
-    cy.log('Perfom login');
+    cy.log('Check login');
     loginPage.fullLogin(user);
 
   })
