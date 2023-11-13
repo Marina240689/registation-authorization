@@ -1,12 +1,19 @@
+
+import user from '../fixtures/user.json'
+import loginPage from '../support/pages/LoginPage'
+import accountPage from '../support/pages/AccountPage'
+import homePage from '../support/pages/HomePage'
+
+
 it('Login', () => {
-    cy.visit('https://automationteststore.com');
-    cy.get('[href="https://automationteststore.com/index.php?rt=account/login"]').first().click();
-    
 
-    cy.get('[id="loginFrm_loginname"]').type('TestUsername8');
-    cy.get('[id="loginFrm_password"]').type('Password1');
-    cy.get('[title="Login"]').click();
-    cy.get('.sidewidt').should('be.visible');
+  homePage.visit();
+  homePage.clickHeaderAccountButton();
+  loginPage.fillLoginForm(user);
+  loginPage.clickLoginButton();
+
+  cy.log('Verify that user is logged in')
+  accountPage.checkUserIsLoggedIn(user);
+})
 
 
-  })

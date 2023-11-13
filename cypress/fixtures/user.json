@@ -1,0 +1,16 @@
+{
+  "firstName": "First Name",
+  "lastName": "'Last Name",
+  "email": "test14@mail.com",
+  "phone": "0441111111111",
+  "fax": "0441111111111",
+  "companyName": "Company",
+  "address1": "address 1",
+  "address2": "address 1",
+  "city": "Kyiv",
+  "postcode": "10001",
+  "countryid": "Ukraine",
+  "zoneId": "3490",
+  "loginName": "TestUsername14",
+  "password": "Password1!"
+}
